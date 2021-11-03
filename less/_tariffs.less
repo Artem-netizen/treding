@@ -1,0 +1,179 @@
+.tariffs{
+    padding-top: 105px;
+    padding-bottom: 150px;
+    background-image: url('../image/tarif/bg-fon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+.tariffs__title{
+    margin-bottom: 130px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 92px;
+    font-weight: bold;
+    color: #FBF9F8;
+    font-size: 76px;
+}
+.tariffs__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+// картинки заголовков 
+.one__cart{
+    position: relative;
+    z-index: 5;
+    background-image: url('../image/tarif/cart-title.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 420px;
+    height: 140px;
+}
+.two__cart{
+    position: relative;
+    z-index: 5;
+    background-image: url('../image/tarif/cart-title-pro.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 420px;
+    height: 140px;
+    .sale{
+        position: absolute;
+        right: -35px;
+        top: -35px;
+        z-index: 5;
+        width: 95px;
+        height: 95px;
+        display: flex;
+        font-size: 36px;
+        color: #E0E0E0;
+        font-weight: normal;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(180deg, #ED1B24 0%, #BC252C 100%);
+        box-shadow: inset 0px 2.86849px 7.88835px rgba(51, 11, 12, 0.3);
+    }
+}
+.three__cart{
+    position: relative;
+    z-index: 5;
+    background-image: url('../image/tarif/cart-title-vip.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 420px;
+    height: 140px;
+}
+// 
+.list-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 7;
+}
+// стили для заголовкох тарифов
+.first__title{
+    font-weight: 600;
+    font-size: 40px;
+    color: #232323;
+    text-align: center;
+}
+.second__title{
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+// 
+.tariffs__enumeration{
+    position: relative;
+    top: -45px;
+    margin: 0 auto;
+    padding: 0 11px 11px 11px;
+    max-width: 350px;
+    height: 100%;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 15px;
+    .tariffs__enumeration-wrap{
+        position: relative;
+        max-width: 353px;
+        padding: 0 15px 77px 15px;
+        width: 100%;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10.7568px rgba(163, 163, 163, 0.35);
+        border-radius: 11px;
+    }
+}
+.tariffs__image{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    max-width: 255px;
+    width: 100%;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.enumeration__item{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: flex-start;
+    &:last-child{
+        margin-bottom: 0;
+        padding-bottom: 35px;
+    }
+}
+.enumeration__image{
+    margin-right: 7px;
+    max-width: 30px;
+    width: 100%;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.enumeration__text{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.enum-text__bottom{
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: #7E7E7E;
+    font-size: 15px;
+}
+.price{
+    font-weight: normal;
+    font-size: 56px;
+    background: #956E3A;
+    background: -webkit-linear-gradient(top, #956E3A, #DDBC74);
+    background: -moz-linear-gradient(top, #956E3A, #DDBC74);
+    background: linear-gradient(to bottom, #956E3A, #DDBC74);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+//кнопка
+.enum__btn{
+    position: absolute;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 11;
+    .enum__link{
+        padding: 30px;
+        width: 300px;
+        font-size: 18px;
+    }
+}

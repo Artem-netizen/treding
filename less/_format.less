@@ -1,0 +1,115 @@
+.format{
+    padding-top: 140px;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+    background-image: url('../image/format/bg-fon.jpg');
+    background-size: cover;
+}
+.format__title{
+    margin-bottom: 100px;
+    font-weight: bold;
+    font-size: 76px;
+    line-height: 92px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.format__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.format__item{
+    position: relative;
+    z-index: 2;
+    &:nth-child(2){
+        transform: translateY(65px);
+    }
+    &:nth-child(3){
+        transform: translateY(130px);
+    }
+    &:nth-child(5){
+        transform: translateY(65px);
+    }
+    &:nth-child(6){
+        transform: translateY(130px);
+    }
+}
+.format__span{
+    font-weight: normal;
+    font-size: 177px;
+    letter-spacing: 0.065em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255,.3);
+}
+.dark{
+    position: relative;
+    top: -105px;
+    left: 70px;
+    z-index: 10;
+    background: url('../image/format/cart-dark.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 33px 0 33px 33px;
+    min-width: 390px;
+    min-height: 408px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.white{
+    position: relative;
+    top: -105px;
+    left: 70px;
+    z-index: 10;
+    background-image: url('../image/format/cart-wh.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 33px 0 33px 33px;
+    min-width: 390px;
+    min-height: 408px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.cart__span{
+    margin-bottom: 20px;
+    display: block;
+    font-weight: normal;
+    font-size: 103px;
+    letter-spacing: 0.065em;
+    text-transform: uppercase;
+    color: rgba(232, 196, 115, 1);
+}
+.cart__wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart__text{
+    max-width: 145px;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 99%;
+    letter-spacing: -0.03em;
+    color: #DEDEDE;
+}
+.white__text{
+    color: #1B1B1B;
+}
+.cart__image{
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    z-index: -1;
+}
+.voln{
+    position: absolute;
+    bottom: -22%;
+    right: -20%;
+    z-index: -1;
+    width: 100%;
+}
